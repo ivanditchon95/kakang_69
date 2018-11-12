@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="assets/css/skeleton.css"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+	<div class="container">
+        <div class="row">
+            <form action="login.php" method="POST">
+            <h1><strong>WOLAR</strong></h1>
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" class="u-full-width" name="username" id="username" placeholder="Your username"/>
+            <label for="password">Password:</label>
+            <input type="password" class="u-full-width" name="password" id="password" placeholder="Your password"/>
+            <label class="u-pull-right">
+                <span>No account yet? <a href="create_account.php" style="text-decoration: none;">Register here</a></span>
+            </label>
+            <input type="submit" style="margin-top: 20px;" name="login" class="button-primary" value="Login"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
